@@ -139,7 +139,7 @@ export function TeamSEO() {
   return (
     <SEO
       title="Meet Our Team | AI Web Developers & Designers — Indian Launch Web Development"
-      description="Meet the team behind Indian Launch Web Development — Lakshya (Founder), Rohit (Frontend), Kunal (Backend), and Mayank (Full-Stack). Expert developers building AI-powered websites for startups and small businesses in India."
+      description="Meet the team behind Indian Launch Web Development — Lakshya (Founder), Rohit (Frontend), and Kunal (Backend). Expert developers building AI-powered websites for startups and small businesses in India."
       keywords="web development team India, Indian web developers, startup web developers, AI web development team, frontend developer India, backend developer India, full-stack developer India, web development agency team, Indian Launch team"
       canonical="https://indianlaunch.dev/team"
       ogImage="https://indianlaunch.dev/images/team-group.jpg"
@@ -167,12 +167,6 @@ export function TeamSEO() {
             "jobTitle": "Backend Developer",
             "knowsAbout": "Server-Side Logic, Database Architecture, API Development"
           },
-          {
-            "@type": "Person",
-            "name": "Mayank",
-            "jobTitle": "Full-Stack Developer",
-            "knowsAbout": "End-to-End Development, Deployment, Performance Optimization"
-          }
         ]
       }}
     />
@@ -207,7 +201,7 @@ export function ContactSEO() {
   return (
     <SEO
       title="Contact Indian Launch | Book a Free WhatsApp Consultation for AI Website Development"
-      description="Book a free consultation with Indian Launch Web Development on WhatsApp. Talk directly to Lakshya, Rohit, Kunal, or Mayank about your AI-powered website project. Fast response, affordable rates, based in India."
+      description="Book a free consultation with Indian Launch Web Development on WhatsApp. Talk directly to Lakshya, Rohit, or Kunal about your AI-powered website project. Fast response, affordable rates, based in India."
       keywords="contact web developer India, WhatsApp consultation web development, book web development consultation, free website consultation India, hire web developer India, AI website development inquiry, startup website consultation, small business web developer contact"
       canonical="https://indianlaunch.dev/contact"
       jsonLd={{

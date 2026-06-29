@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Crown, Code2, Server, Layers, MessageCircle } from 'lucide-react';
+import { Crown, Code2, Server, MessageCircle } from 'lucide-react';
 import PageNav from '../components/PageNav';
 import { TeamSEO } from '../lib/seoConfig';
 
@@ -19,14 +19,12 @@ const memberIcons: Record<string, React.ReactNode> = {
   Lakshya: <Crown className="w-5 h-5" />,
   Rohit: <Code2 className="w-5 h-5" />,
   Kunal: <Server className="w-5 h-5" />,
-  Mayank: <Layers className="w-5 h-5" />,
 };
 
 const memberColors: Record<string, { bg: string; text: string }> = {
   Lakshya: { bg: 'bg-[#C8956C]/10', text: 'text-[#C8956C]' },
   Rohit: { bg: 'bg-[#D4A574]/10', text: 'text-[#D4A574]' },
   Kunal: { bg: 'bg-[#8B6F4E]/10', text: 'text-[#8B6F4E]' },
-  Mayank: { bg: 'bg-[#E8C9A8]/10', text: 'text-[#E8C9A8]' },
 };
 
 export default function TeamPage() {
